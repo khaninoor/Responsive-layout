@@ -1,0 +1,89 @@
+.header-sec{
+  background-image: url("images/column3-1920x1280.jpeg");
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+}
+.button{
+  color: #0a2640;
+    border: 15px;
+    font-weight: bold;
+    border: 2px solid black ;
+    margin: 2px 10px;
+    padding: 17px;
+    border-radius: 50px;
+}
+.background-img{
+  background-image: url("images/attorney30.jpeg");
+  position: relative;
+  background-repeat: no-repeat;
+  
+}
+.under-pic{
+  background-image: url("images/attorney30.jpeg");
+  height: auto;
+  background-position: center;
+
+
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.logo{
+  height: 40px;
+  
+}
+  
+.button2{
+  color: white;
+    border: 15px;
+    font-weight: bold;
+    border: 2px solid black ;
+    margin: 2px 10px;
+    padding: 17px;
+    border-radius: 50px;
+    background-color: darkgray;
+}
+.navbar {
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+}
+.navbar .navbar-nav .nav-link {
+  color: #000;
+}
+.btn-outline-dark {
+  border-radius: 0;
+}
+.btn-outline-dark:focus {
+  box-shadow: none;
+}
+.letters{
+  color: #fff;
+
+}
+.lead{
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .btn-outline-dark {
+    border: none;
+    padding: 0;
+    outline: none;
+  }
+
+  .btn-outline-dark:hover {
+    background: none;
+    color: gray;
+  }
+}

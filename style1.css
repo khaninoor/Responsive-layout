@@ -1,0 +1,35 @@
+.header-sec{
+    background-image: url("images/Group-296.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: auto;
+padding-bottom: 10px;
+
+}
+.container{
+    padding-top: 10px;
+    padding-bottom: 19px ;
+}
+.nav{
+    margin-top: 20px;
+
+}
+.nav-logo img{
+    height: 60px;
+    margin-top: 20px;
+}
+@media screen (max-width: 600px;)
+{
+    .header-sec{
+        width: auto;
+        .nav{
+            width: auto;
+        }
+        .nav-logo img{
+            height: auto;
+        }
+
+    }
+}
+    

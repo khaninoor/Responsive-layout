@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-sizing: border-box;
+    
+
+}
+
+.icons{
+    width: 30px;
+    
+}
+ .cta{
+    border: 50px;
+    padding: 10px 30px;
+    background-color: #65e4a3 ;
+    border-radius: 50px;
+    color: #0a2640;
+
+}
+.anyname{
+    width: 220px;
+    height: 250px;
+}
+.explore{
+    border: 50px;
+    padding: 10px 30px;
+    background-color: #0a2640;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: #ffffff;
+    margin-left: 10px;
+    
+
+
+}
+.start{
+    border: 50px;
+    padding: 10px 30px;
+    background-color: #0a2640;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+.email{
+    border: 50px;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-left: 10px;
+
+}
+.now{
+    border: 50px;
+    padding: 10px 30px;
+    background-color:#65e4a3;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-left: 10px;
+    color: #0a2640;
+}
+.Hiring{
+    border: 50px;
+    padding: 0px 20px;
+    background-color:#65e4a3;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: #0a2640;
+}
+
+
+.header-sec{
+    background-image: url("images/Group-296.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: auto;
+padding-bottom: 10px;
+
+}
+.container{
+    padding-top: 10px;
+    padding-bottom: 19px ;
+}
+.nav{
+    margin-top: 20px;
+
+}
+.nav-logo img{
+    height: 60px;
+    margin-top: 20px;
+}
+.nav-menu{
+    list-style: none;
+   
+    margin: 0;
+    padding: 0%;
+}
+.nav-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+
+.nav-menu li a{
+    padding:  0 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-menu img{
+    padding: 0 25px;
+}
+.nav-menu .nav-login{
+    padding:  5px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+}
+.checkbtn{
+    color: #ffffff;
+    float: right;
+    font-size: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.logos{
+    flex-wrap: wrap;
+        
+}
+.logos img{
+    padding: 0px 20px;
+}
+
+.testimonial-sec{
+    background-image: url("images/image_2023_09_01T09_44_14_139Z.png");
+    position: center;
+    size: cover;
+    height: auto;
+}
+.bg-text{
+    color: #ffffff;
+}
+.btn-4{
+    border: 15px;
+    font-weight: bold;
+    color:#0a2640 ;
+    border: none;
+    margin: 2px 10px;
+    padding: 17px;
+    border-radius: 50px;
+
+}
+
+.btn-5{
+    color: #0a2640;
+    background-color: #65e4a3;
+    border: 15px;
+    font-weight: bold;
+    border: none;
+    margin: 2px 10px;
+    padding: 17px;
+    border-radius: 50px;
+}
+@media screen (max-widht:768px){
+
+ .checkbtn{
+    display: block;
+ }
+ .img img{
+     width: 100px;
+ }
+ .img2 img{
+    width: 100px;
+ }
+ 
+}
